@@ -1,0 +1,4 @@
+base: main.yaml
+agents: 1
+encoder: centralized
+

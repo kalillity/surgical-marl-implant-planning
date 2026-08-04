@@ -1,0 +1,10 @@
+seed: 42
+epochs: 1
+environment_steps: 2
+batch_size: 2
+actor_learning_rate: 0.0003
+critic_learning_rate: 0.001
+message_dim: 32
+attention_heads: 4
+volume_shape: [16, 16, 16]
+

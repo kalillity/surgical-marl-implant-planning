@@ -1,0 +1,27 @@
+seed: 42
+seeds: [1, 2, 3, 4, 5]
+epochs: 500
+environment_steps: 5000000
+batch_size: 2048
+actor_learning_rate: 0.0003
+critic_learning_rate: 0.001
+warmup_fraction: 0.05
+scheduler: cosine
+optimizer: adamw
+weight_decay: 0.0
+gradient_clip: 0.5
+precision: fp32
+world_size: 4
+gpu: NVIDIA A100 80GB
+message_dim: 256
+attention_heads: 4
+gate_temperature: 0.5
+cooperative_fraction: 0.6
+adversarial_start_epoch: 200
+adversarial_end_epoch: 350
+max_revision_cycles: 3
+discount: 0.99
+dual_learning_rate: 0.005
+reward_weights: [0.15, 0.20, 0.20, 0.25, 0.20]
+volume_shape: [128, 128, 128]
+
